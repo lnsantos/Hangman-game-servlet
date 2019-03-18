@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Passion+One');
+*{
+	padding: 0;
+	margin: 0;
+	
+	font-family: Passion One;
+	text-decoration:none; 
+}
+.centraliza{
+	position: absolute;
+	top:50%;
+    left:50%;
+    margin-top:-10%;
+    margin-left:-15%;
+    background-image: url('http://backgroundcheckall.com/wp-content/uploads/2017/12/16-bit-background-7.jpg');
+}
+.opc{
+	width: 500px;
+	height: 500px;
+	padding: 5%;
+	background-color: #8a0000;
+	border:2px solid black;
+    top:50%;
+    left:50%;
+    margin-top:-50px;
+    margin-left:-50px;
+}
+.opcBtn{
+	font-size: 400%;
+	margin: 0 auto;
+	text-align:center;
+	width: 70%;
+	background-color: #db5757; 
+	border: 1px solid black;
+}
+.ninja{
+	width:100%;
+	font-size: 32px;
+	color:#fff;
+	background-color:#000;
+}
+
+.descricao{
+	font-size: 12px;
+	border: 1px solid black;	
+	background-color: #fff;
+}
+
+.formBtn{
+	font-size:32px;
+	color: #00ffff;
+	padding: 5px;
+	background-color: #e60000;
+	border:2px solid black;
+	text-align:center;
+}
+testeCores{
+	background-color: #b9b9b9;
+}
+.escond{
+	 margin-left: 10px;
+	 display:inline;
+	 font-size: 90px;
+	 float: left;
+}
+.voltaPag{
+	width: 350px;
+	height: 50px;
+	text-align: center;
+	font-size: 45px;
+	background-color: black;
+	color: #fff;
+}
+.voltaPag:hover{
+	float: inherit;
+	background-color: white;
+	font-size: 60px;
+	color: red;
+	height: 60px;
+}
+.msgServlet{
+	background-color: #ffc4c4;
+	color: #fff;
+	font-size: 35px;
+	width: 100%;
+	padding: 10px;
+}

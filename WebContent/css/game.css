@@ -1,0 +1,108 @@
+body{
+	padding: 5px;
+	background-color: red;
+}
+.input{
+    width: 150px;
+    height:155px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    font-size: 100px;
+    text-align: center;
+}
+.imgFrame{
+	margin-top:20px;
+	position: absolute;
+}
+.button {
+    background-color: #4CAF50;
+    color: white;
+    border: 3px solid black;
+    cursor: pointer;
+    width:150px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+}
+.perdeu{
+	 width: 80%;
+	 height: 1000vh;
+	 background-color: #000;
+	 filter:alpha(opacity=50);
+	 z-index: 99;
+}
+.boneco_esquerda{
+	margin-top:5px;
+	padding: 5px;
+	width: 24%;
+	float: left;
+	background-color: #c0c0c0;
+	border: 3px solid black;
+}
+.tudo{
+	margin-top:5px;
+	padding: 5px;
+	width: 980px;
+	background-color: #c0c0c0;
+	border: 3px solid black;
+	}
+.centro{
+	width:100vh;
+	margin: 0 auto;
+}
+.button:hover,.button2:hover  {
+    opacity: 0.8;
+}
+.bloqueio{
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	z-index: 99;
+	position: absolute;
+}
+.dicas{
+	margin-top:5px;
+	padding: 12px 20px;
+    border: 3px solid black;
+	width: 80%;
+	height:100%;
+    font-size: 15px;
+    text-align: center;
+    float: right;
+    overflow:auto;
+    background-color: #ffb9bb;
+}
+.input_jogadas{
+	padding: 12px 20px;
+    border: 3px solid black;
+	width: 80%;
+    font-size: 100px;
+    text-align: center;
+    float: right;
+    overflow: scroll;
+}
+.button2 {	
+    background-color: #4CAF50;
+    color: white;
+    border: 3px solid black;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top:5px;
+    width:150px;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+}
+.escondida{
+    font-size: 150px;
+    margin-left: 15px;
+    display:inline;
+}
+.escond{
+	font-size-adjust: 60px;
+}
+.boneco{
+	height: 350px;
+	width: 150px;
+	border: 1px s
+}

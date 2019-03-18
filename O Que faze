@@ -1,0 +1,15 @@
+Criar função em javaScript para gerar valor aleatório e manda para o servlet 
+chamando o ID, para ele me retorna a informação do banco.
+
+
+create database forca_bugado;
+use forca_bugado;
+
+create table palavra(
+	id integer primary key auto_increment not null,
+    p_palavra varchar(30),
+    discicao varchar(10000)
+);
+
+insert into palavra(p_palavra,discicao) values ('Aproveitamento','testando');
+select * from palavra;
